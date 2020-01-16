@@ -1,5 +1,6 @@
 require 'spec_helper'
 require 'rack/test'
+require 'rails_helper'
 
 describe IshManager::ReportsController, :type => :controller do
   render_views

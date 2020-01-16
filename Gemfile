@@ -20,14 +20,16 @@ gem 'tzinfo', '1.2.4'
 gem 'activesupport', '5.1.4'
 gem 'rspec'
 gem 'rspec-rails'
-gem 'factory_girl_rails'
+#gem 'factory_girl_rails'
+gem 'tzinfo-data'
 
 group :test, :development do
   gem 'byebug'
-
   ## doesn't work here for travis
   # gem 'rspec'
-  # gem 'rspec-rails'
+  gem "mocha"
+  gem 'capybara'
+  gem 'rspec-rails'
   # gem 'factory_girl_rails'
   
   ## for travis

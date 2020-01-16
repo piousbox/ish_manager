@@ -1,5 +1,5 @@
 require 'spec_helper'
-
+require 'rails_helper'
 describe IshManager::CitiesController, :type => :controller do
   render_views
   routes { IshManager::Engine.routes }

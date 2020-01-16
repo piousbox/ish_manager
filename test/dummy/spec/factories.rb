@@ -1,5 +1,11 @@
 
 FactoryGirl.define do
+  factory :user do
+    
+  end
+  factory :super_user do
+    
+  end
 
   factory :city do
     name 'City'
